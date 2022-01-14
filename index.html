@@ -6,52 +6,56 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <!-- Main container-->
-<div>
+<div class="main-container">
     <!--    Main content section-->
-    <div>
+    <div class="main-content-section">
         <!-- About me section-->
-        <div>
-            <h2>
+        <div class="about-me-section">
+            <h2 class="about-me-h2">
                 Front-End Developer
             </h2>
-            <h1>
+            <h1 class="about-me-h1">
                 Anton Chornyi
             </h1>
-            <p>
+            <p class="about-me-p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
                 facilisis.
             </p>
         </div>
 
         <!--    My projects section-->
-        <div>
-            <h3>Projects</h3>
-            <ol>
-                <li>
-                    <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
-                    <span>........</span>
-                    <span>[ HTML5, CSS3 ]</span>
+        <div class="my-projects-section">
+            <h3 class="my-projects-h3">Projects</h3>
+            <ol class="my-projects-ol">
+                <li class="my-projects-li">
+                    <a class="my-projects-a" href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
+                    <span>............</span>
+                    <span><b>[</b> HTML5, CSS3 <b>]</b></span>
                 </li>
-                <li>
-                    <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
-                    <span>........</span>
-                    <span>[ JavaScript ]</span>
+                <li class="my-projects-li">
+                    <a class="my-projects-a" href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
+                    <span>.............</span>
+                    <span><b>[</b> JavaScript <b>]</b></span>
                 </li>
-                <li>
-                    <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
-                    <span>........</span>
-                    <span>[ React.js, Node.js ]</span>
+                <li class="my-projects-li">
+                    <a class="my-projects-a" href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
+                    <span>................</span>
+                    <span><b>[</b> React.js, Node.js <b>]</b></span>
                 </li>
             </ol>
         </div>
 
         <!--    My work experience section-->
-        <div>
+        <div class="my-work-experiance-section">
             <h3>Work Experience</h3>
 
             <!--        Company 3-->
@@ -116,75 +120,75 @@
 
         </div>
 
-        <!--    My work education-->
-        <div>
-            <h3>Education</h3>
-            <h4>National University of Radioelectronics</h4>
-            <h5>Management</h5>
-            <p>September 2009 - June 2014 | Country</p>
+        <!--    My work education section-->
+        <div class="my-education-section">
+            <h3 class="my-education-h3">Education</h3>
+            <h3 class="my-education-red">National University of Radioelectronics</h3>
+            <h4 class="my-education-h4">Management</h4>
+            <p class="my-education-p">September 2009 - June 2014 | Country</p>
         </div>
     </div>
 
     <!--    Sidebar section-->
-    <aside>
-        <img src="img/photo.jpg" alt="my photo">
+    <aside class="sidebar-section">
+        <img class="img" src="img/photo.jpg" alt="my photo">
 
         <!--        Contacts sections-->
-        <div>
-            <h3>Contacts</h3>
+        <div class="contact">
+            <h3 class="contact-h3">Contacts</h3>
             <div>
-                <span>C:</span>
-                <a href="tel:+7777777777">+7 777 777 777</a>
+                <span class="contact-span">C:</span>
+                <a class="contact-a" href="tel:+7777777777">+7 777 777 777</a>
             </div>
             <div>
-                <span>E:</span>
-                <a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
+                <span class="contact-span">E:</span>
+                <a class="contact-a" href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
             </div>
         </div>
 
         <!--        Tech skills section-->
-        <div>
-            <h3>Tech Skills</h3>
-            <ul>
+        <div class="tech">
+            <h3 class="tech-h3">Tech Skills</h3>
+            <ul class="tech-ul">
                 <li>
-                    HTML5
+                    <span class="tech-span">HTML5</span>
                 </li>
                 <li>
-                    CSS3
+                    <span class="tech-span">CSS3</span>
                 </li>
                 <li>
-                    GIT
+                    <span class="tech-span">GIT</span>
                 </li>
                 <li>
-                    WebPack
+                    <span class="tech-span">WebPack</span>
                 </li>
                 <li>
-                    JavaScript
+                    <span class="tech-span">JavaScript</span>
                 </li>
                 <li>
-                    React.js
+                    <span class="tech-span">React.js</span>
                 </li>
                 <li>
-                    Node.js
+                    <span class="tech-span">Node.js</span>
                 </li>
             </ul>
         </div>
 
         <!--        Soft skills section-->
-        <div>
-            <h3>Soft Skills</h3>
-            <ul>
+        <div class="soft">
+            <h3 class="soft-h3">Soft Skills</h3>
+            <ul class="soft-ul">
                 <li>
-                    Scrum
+                    <span class="soft-span">Scrum</span>
                 </li>
                 <li>
-                    Agile
+                    <span class="soft-span">Agile</span>
                 </li>
                 <li>
-                    GTD
+                    <span class="soft-span">GTD</span>
                 </li>
                 <li>
-                    Teamwork
+                    <span class="soft-span">Teamwork</span>
                 </li>
             </ul>
         </div>
