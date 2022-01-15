@@ -148,89 +148,51 @@ span {
 /*Sidebar*/
 .sidebar-section {
     background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0 0 0;
 }
 
-/*Class img*/
-.img {
-    width: 354px;
-    height: 370px;
-    margin-top: 40px;
+.contacts-section,
+.tech-skills-section,
+.soft-skills-section {
+    margin: 50px 0 0 40px;
 }
 
-/*Class Contact*/
-.contact {
-    margin-top: 51px;
-    margin-left: 40px;
-
-}
-
-.contact-h3 {
+.sidebar-title {
     font-size: 22px;
     color: #fff;
     font-weight: 700;
     line-height: 27px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
-.contact-span {
+.sidebar-list{
+    padding: 0 0 0 17px;
+}
+.sidebar-item {
+    color: #fb6d3a;
+}
+.sidebar-item-text {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Contacts section */
+.contact-section-type {
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
     color: #fff;
+    margin-right: 7px;
 }
 
-.contact-a {
+.contact-section-link {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: grey;
-    padding-left: 12px;
-}
-
-/*Class Tech*/
-.tech {
-    margin-top: 51px;
-    margin-left: 40px;
-}
-
-.tech-h3 {
-    font-size: 22px;
-    color: #fff;
-    font-weight: 700;
-    line-height: 27px;
-    margin-bottom: 0;
-}
-
-.tech-ul {
-    color: red;
-    padding-left: 20px;
-    margin-top: 10px;
-}
-
-.tech-span {
-    color: #fff;
-}
-
-/* Class Soft*/
-.soft {
-    margin-top: 51px;
-    margin-left: 40px;
-}
-
-.soft-h3 {
-    font-size: 22px;
-    color: #fff;
-    font-weight: 700;
-    line-height: 27px;
-    margin-bottom: 0;
-}
-
-.soft-ul {
-    color: red;
-    padding-left: 20px;
-    margin-top: 10px;
-}
-
-.soft-span {
-    color: #fff;
+    color: #565e6a;
+    font-style: normal;
 }
